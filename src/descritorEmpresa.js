@@ -29,6 +29,6 @@ export default class Descritor {
         texto += `funcionarios:\n`
         texto += this.descreverFuncionarios(empresa)
 
-        console.log(texto);
+        console.log(texto)
     }
 }

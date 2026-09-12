@@ -1,4 +1,4 @@
-import Descritor from "./descritorEmpresa.js";
+import Descritor from "./descritorEmpresa.js"
 import Empresa from "./empresa.js"
 import Endereco from "./endereco.js"
 import Funcionario from "./funcionario.js"
@@ -6,12 +6,12 @@ import Telefone from "./telefone.js"
 
 /* Sem criatividade hoje :( */
 
-let endereco = new Endereco(123, 'Av. Paulista', 'Jardim Paulista', 'São Paulo');
-let telefone = new Telefone('011', '9-9999-9999');
-let funcionario = new Funcionario('Tony Stark', '123456789', '999.999.999-99', endereco, telefone);
-let funcionarios = [funcionario];
-let telefones = [telefone];
-let empresa = new Empresa(funcionarios, endereco, 'ABC LTDA', 'Mercado online', '999-999-999-999-99', telefones);
+let endereco = new Endereco(123, 'Av. Paulista', 'Jardim Paulista', 'São Paulo')
+let telefone = new Telefone('011', '9-9999-9999')
+let funcionario = new Funcionario('Tony Stark', '123456789', '999.999.999-99', endereco, telefone)
+let funcionarios = [funcionario]
+let telefones = [telefone]
+let empresa = new Empresa(funcionarios, endereco, 'ABC LTDA', 'Mercado online', '999-999-999-999-99', telefones)
 
-let descritor = new Descritor();
-descritor.descrever(empresa);
+let descritor = new Descritor()
+descritor.descrever(empresa)
