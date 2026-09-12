@@ -1,2 +1,2 @@
 # RI5
-Atividade de cadastro de empresa e funcionários
+Atividade de criação de objetos para o cadastro de Empresa e Funcionários em javascript, a partir de um diagrama UML
